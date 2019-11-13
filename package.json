@@ -2,7 +2,7 @@
   "name": "uniswap",
   "description": "Uniswap Exchange Protocol",
   "version": "0.1.0",
-  "homepage": "https://hlambur.github.io/uniswap-frontend",
+  "homepage": "http://uniswap-demo.umaproject.org",
   "private": true,
   "dependencies": {
     "@reach/dialog": "^0.2.8",
@@ -31,7 +31,7 @@
     "web3-react": "5.0.5"
   },
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && cp CNAME build/CNAME",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
