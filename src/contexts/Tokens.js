@@ -580,6 +580,12 @@ export const INITIAL_TOKENS_CONTEXT = {
       [DECIMALS]: 18,
       [EXCHANGE_ADDRESS]: '0x5048b9d01097498Fd72F3F14bC9Bc74A5aAc8fA7'
     },
+    '0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828': {
+      [NAME]: 'UMA Voting Token v1',
+      [SYMBOL]: 'UMA',
+      [DECIMALS]: 18,
+      [EXCHANGE_ADDRESS]: '0x6264C8d158F32Bd8C01B8A0102b57dfcFCfb8561'
+    },
     '0x8400D94A5cb0fa0D041a3788e395285d61c9ee5e': {
       [NAME]: 'UniBright',
       [SYMBOL]: 'UBT',
